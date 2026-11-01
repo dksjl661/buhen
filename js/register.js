@@ -14,6 +14,7 @@ import l13 from "./book/two-sum.js";
 import l14 from "./book/anagram.js";
 import l15 from "./book/intersection.js";
 import l16 from "./book/happy-number.js";
+import l17 from "./book/reverse-string.js";
 
 export const book = [
   l1,
@@ -32,4 +33,5 @@ export const book = [
   l14,
   l15,
   l16,
+  l17,
 ];
