@@ -42,6 +42,7 @@ import l41 from "./book/coin-change.js";
 import l42 from "./book/knapsack.js";
 import l43 from "./book/unique-paths.js";
 import l44 from "./book/lis.js";
+import l45 from "./book/next-greater.js";
 
 export const book = [
   l1,
@@ -88,4 +89,5 @@ export const book = [
   l42,
   l43,
   l44,
+  l45,
 ];
