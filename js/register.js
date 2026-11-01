@@ -20,6 +20,7 @@ import l19 from "./book/reverse-words.js";
 import l20 from "./book/move-zeroes.js";
 import l21 from "./book/container-water.js";
 import l22 from "./book/three-sum.js";
+import l23 from "./book/valid-parens.js";
 
 export const book = [
   l1,
@@ -44,4 +45,5 @@ export const book = [
   l20,
   l21,
   l22,
+  l23,
 ];
