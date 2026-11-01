@@ -18,6 +18,7 @@ import l17 from "./book/reverse-string.js";
 import l18 from "./book/strstr.js";
 import l19 from "./book/reverse-words.js";
 import l20 from "./book/move-zeroes.js";
+import l21 from "./book/container-water.js";
 
 export const book = [
   l1,
@@ -40,4 +41,5 @@ export const book = [
   l18,
   l19,
   l20,
+  l21,
 ];
