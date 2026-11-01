@@ -41,6 +41,7 @@ import l40 from "./book/house-robber.js";
 import l41 from "./book/coin-change.js";
 import l42 from "./book/knapsack.js";
 import l43 from "./book/unique-paths.js";
+import l44 from "./book/lis.js";
 
 export const book = [
   l1,
@@ -86,4 +87,5 @@ export const book = [
   l41,
   l42,
   l43,
+  l44,
 ];
