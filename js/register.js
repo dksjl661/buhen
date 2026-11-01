@@ -26,6 +26,7 @@ import l25 from "./book/eval-rpn.js";
 import l26 from "./book/min-stack.js";
 import l27 from "./book/preorder.js";
 import l28 from "./book/level-order.js";
+import l29 from "./book/invert-tree.js";
 
 export const book = [
   l1,
@@ -56,4 +57,5 @@ export const book = [
   l26,
   l27,
   l28,
+  l29,
 ];
