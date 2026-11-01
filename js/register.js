@@ -8,6 +8,7 @@ import l7 from "./book/merge-intervals.js";
 import l8 from "./book/reverse-list.js";
 import l9 from "./book/merge-lists.js";
 import l10 from "./book/cycle-list.js";
+import l11 from "./book/remove-nth.js";
 
 export const book = [
   l1,
@@ -20,4 +21,5 @@ export const book = [
   l8,
   l9,
   l10,
+  l11,
 ];
