@@ -21,6 +21,7 @@ import l20 from "./book/move-zeroes.js";
 import l21 from "./book/container-water.js";
 import l22 from "./book/three-sum.js";
 import l23 from "./book/valid-parens.js";
+import l24 from "./book/queue-with-stacks.js";
 
 export const book = [
   l1,
@@ -46,4 +47,5 @@ export const book = [
   l21,
   l22,
   l23,
+  l24,
 ];
