@@ -17,6 +17,7 @@ import l16 from "./book/happy-number.js";
 import l17 from "./book/reverse-string.js";
 import l18 from "./book/strstr.js";
 import l19 from "./book/reverse-words.js";
+import l20 from "./book/move-zeroes.js";
 
 export const book = [
   l1,
@@ -38,4 +39,5 @@ export const book = [
   l17,
   l18,
   l19,
+  l20,
 ];
