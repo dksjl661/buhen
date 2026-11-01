@@ -30,6 +30,7 @@ import l29 from "./book/invert-tree.js";
 import l30 from "./book/max-depth.js";
 import l31 from "./book/path-sum.js";
 import l32 from "./book/subsets.js";
+import l33 from "./book/combinations.js";
 
 export const book = [
   l1,
@@ -64,4 +65,5 @@ export const book = [
   l30,
   l31,
   l32,
+  l33,
 ];
