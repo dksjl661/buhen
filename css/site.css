@@ -107,11 +107,15 @@ main {
 }
 
 .sidecol {
-  padding: 32px 28px 28px 26px;
+  padding: 32px 22px 28px 22px;
   border-right: 1px solid var(--line);
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 14px;
+  position: sticky;
+  top: 28px;
+  align-self: start;
+  max-height: calc(100vh - 56px);
 }
 
 .running,
@@ -149,20 +153,32 @@ main {
 .toc {
   display: flex;
   flex-direction: column;
-  margin-top: 8px;
+  margin-top: 4px;
+  overflow: auto;
+  flex: 1;
+  min-height: 0;
+  padding-right: 6px;
+}
+
+.toc-chapter {
+  margin: 12px 0 0;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: var(--cinnabar);
 }
 
 .toc button {
   display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 12px;
+  grid-template-columns: 28px 1fr;
+  gap: 8px;
   align-items: baseline;
   width: 100%;
   text-align: left;
   background: transparent;
   border: 0;
-  border-top: 1px solid var(--line);
-  padding: 13px 0;
+  border-top: 1px solid transparent;
+  padding: 6px 0;
 }
 
 .toc button:last-child {
@@ -176,12 +192,13 @@ main {
 
 .toc-num {
   font-family: Fraunces, serif;
-  font-size: 22px;
+  font-size: 14px;
   font-weight: 500;
+  color: var(--faint);
 }
 
 .toc-name {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .toc-kicker {
@@ -243,6 +260,14 @@ main {
   color: var(--ink-soft);
   font-size: 17px;
   line-height: 1.75;
+}
+
+.complexity {
+  margin-top: 8px;
+  color: var(--faint);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+  letter-spacing: 0.04em;
 }
 
 .variants {
@@ -478,6 +503,144 @@ main {
 
 #stage text.on-fill {
   fill: #f6efe2;
+}
+
+.cells {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 0;
+}
+
+.cell {
+  width: 58px;
+  height: 78px;
+  border: 1px solid var(--ink);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 2px 8px;
+  background: transparent;
+}
+
+.cell.is-matrix {
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+}
+
+.cell .val {
+  font-family: Fraunces, serif;
+  font-size: 20px;
+}
+
+.cell .tags,
+.cell .idx {
+  min-height: 12px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  color: var(--cinnabar-deep);
+}
+
+.cell.is-on,
+.cell.is-pick {
+  color: var(--paper-2);
+}
+
+.cell.is-on {
+  background: var(--cinnabar);
+  border-color: var(--cinnabar-deep);
+}
+
+.cell.is-pick {
+  background: var(--indigo);
+  border-color: var(--indigo);
+}
+
+.cell.is-on .tags,
+.cell.is-on .idx,
+.cell.is-pick .tags,
+.cell.is-pick .idx {
+  color: rgba(246, 239, 226, 0.82);
+}
+
+.cell.is-off {
+  opacity: 0.28;
+}
+
+.chain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 0;
+}
+
+.chain-arrow {
+  color: var(--faint);
+  font-family: Fraunces, serif;
+  font-size: 22px;
+}
+
+.lane-board {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.lane {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.lane-name {
+  width: 5.2em;
+  color: var(--faint);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 12px;
+}
+
+.dp {
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.dp th,
+.dp td {
+  border: 1px solid rgba(27, 22, 18, 0.28);
+  min-width: 42px;
+  height: 38px;
+  text-align: center;
+  font-family: Fraunces, serif;
+  font-size: 16px;
+  padding: 0 8px;
+}
+
+.dp th {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+.dp td.is-on {
+  background: var(--cinnabar);
+  color: var(--paper-2);
+}
+
+.dp td.is-pick {
+  background: var(--indigo);
+  color: var(--paper-2);
+}
+
+.edge.tree-edge {
+  stroke-width: 0.45;
 }
 
 .frontier {

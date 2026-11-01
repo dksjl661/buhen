@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>步痕 · 把算法走给你看</title>
+    <title>步痕 · 算法大全</title>
     <meta
       name="description"
-      content="一小本可以单步演示的算法课：二分查找、三种入门排序、广度优先和深度优先。"
+      content="按数组、链表、哈希、字符串、双指针、栈、树、回溯、贪心、动态规划、单调栈和图论排开的单步算法课。"
     />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="sheet">
-      <div class="spine">步痕<span>算法第一册</span></div>
+      <div class="spine">步痕<span>算法大全</span></div>
       <aside class="sidecol">
         <p class="running">手稿</p>
         <h1>步痕</h1>
@@ -27,7 +27,7 @@
           算法不难在名字。难在你看不见它正在扔掉什么、守着什么。这里每按一次，只发生一件事。
         </p>
         <nav class="toc" id="toc" aria-label="课程"></nav>
-        <p class="colophon">二〇二六 · 三课</p>
+        <p class="colophon" id="colophon">二〇二六</p>
       </aside>
       <main>
         <header class="lesson-head">
@@ -38,6 +38,7 @@
           <div class="seal" aria-hidden="true"><span>步</span><span>痕</span></div>
         </header>
         <p class="thesis" id="thesis"></p>
+        <p class="complexity" id="complexity"></p>
         <div class="variants" id="variants"></div>
         <div class="workspace">
           <div class="stage" id="stage"></div>
