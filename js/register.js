@@ -33,6 +33,7 @@ import l32 from "./book/subsets.js";
 import l33 from "./book/combinations.js";
 import l34 from "./book/permutations.js";
 import l35 from "./book/combination-sum.js";
+import l36 from "./book/assign-cookies.js";
 
 export const book = [
   l1,
@@ -70,4 +71,5 @@ export const book = [
   l33,
   l34,
   l35,
+  l36,
 ];
