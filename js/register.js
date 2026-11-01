@@ -10,6 +10,7 @@ import l9 from "./book/merge-lists.js";
 import l10 from "./book/cycle-list.js";
 import l11 from "./book/remove-nth.js";
 import l12 from "./book/remove-linked-val.js";
+import l13 from "./book/two-sum.js";
 
 export const book = [
   l1,
@@ -24,4 +25,5 @@ export const book = [
   l10,
   l11,
   l12,
+  l13,
 ];
