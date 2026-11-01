@@ -43,6 +43,7 @@ import l42 from "./book/knapsack.js";
 import l43 from "./book/unique-paths.js";
 import l44 from "./book/lis.js";
 import l45 from "./book/next-greater.js";
+import l46 from "./book/daily-temp.js";
 
 export const book = [
   l1,
@@ -90,4 +91,5 @@ export const book = [
   l43,
   l44,
   l45,
+  l46,
 ];
