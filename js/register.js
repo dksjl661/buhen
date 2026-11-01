@@ -24,6 +24,7 @@ import l23 from "./book/valid-parens.js";
 import l24 from "./book/queue-with-stacks.js";
 import l25 from "./book/eval-rpn.js";
 import l26 from "./book/min-stack.js";
+import l27 from "./book/preorder.js";
 
 export const book = [
   l1,
@@ -52,4 +53,5 @@ export const book = [
   l24,
   l25,
   l26,
+  l27,
 ];
