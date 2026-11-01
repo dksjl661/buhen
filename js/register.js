@@ -16,6 +16,7 @@ import l15 from "./book/intersection.js";
 import l16 from "./book/happy-number.js";
 import l17 from "./book/reverse-string.js";
 import l18 from "./book/strstr.js";
+import l19 from "./book/reverse-words.js";
 
 export const book = [
   l1,
@@ -36,4 +37,5 @@ export const book = [
   l16,
   l17,
   l18,
+  l19,
 ];
