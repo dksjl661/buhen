@@ -23,6 +23,7 @@ import l22 from "./book/three-sum.js";
 import l23 from "./book/valid-parens.js";
 import l24 from "./book/queue-with-stacks.js";
 import l25 from "./book/eval-rpn.js";
+import l26 from "./book/min-stack.js";
 
 export const book = [
   l1,
@@ -50,4 +51,5 @@ export const book = [
   l23,
   l24,
   l25,
+  l26,
 ];
