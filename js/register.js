@@ -7,6 +7,7 @@ import l6 from "./book/spiral-matrix.js";
 import l7 from "./book/merge-intervals.js";
 import l8 from "./book/reverse-list.js";
 import l9 from "./book/merge-lists.js";
+import l10 from "./book/cycle-list.js";
 
 export const book = [
   l1,
@@ -18,4 +19,5 @@ export const book = [
   l7,
   l8,
   l9,
+  l10,
 ];
