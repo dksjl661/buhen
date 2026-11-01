@@ -35,6 +35,7 @@ import l34 from "./book/permutations.js";
 import l35 from "./book/combination-sum.js";
 import l36 from "./book/assign-cookies.js";
 import l37 from "./book/jump-game.js";
+import l38 from "./book/erase-overlap.js";
 
 export const book = [
   l1,
@@ -74,4 +75,5 @@ export const book = [
   l35,
   l36,
   l37,
+  l38,
 ];
