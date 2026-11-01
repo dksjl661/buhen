@@ -32,6 +32,7 @@ import l31 from "./book/path-sum.js";
 import l32 from "./book/subsets.js";
 import l33 from "./book/combinations.js";
 import l34 from "./book/permutations.js";
+import l35 from "./book/combination-sum.js";
 
 export const book = [
   l1,
@@ -68,4 +69,5 @@ export const book = [
   l32,
   l33,
   l34,
+  l35,
 ];
