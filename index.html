@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>步痕 · 把算法走给你看</title>
+    <meta
+      name="description"
+      content="一小本可以单步演示的算法课：二分查找、三种入门排序、广度优先和深度优先。"
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=JetBrains+Mono:wght@400;600&family=Noto+Serif+SC:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/site.css" />
+  </head>
+  <body>
+    <div class="sheet">
+      <div class="spine">步痕<span>算法第一册</span></div>
+      <aside class="sidecol">
+        <p class="running">手稿</p>
+        <h1>步痕</h1>
+        <p class="lede">
+          算法不难在名字。难在你看不见它正在扔掉什么、守着什么。这里每按一次，只发生一件事。
+        </p>
+        <nav class="toc" id="toc" aria-label="课程"></nav>
+        <p class="colophon">二〇二六 · 三课</p>
+      </aside>
+      <main>
+        <header class="lesson-head">
+          <div>
+            <p class="kicker" id="kicker">查找</p>
+            <h2 id="lesson-title">二分查找</h2>
+          </div>
+          <div class="seal" aria-hidden="true"><span>步</span><span>痕</span></div>
+        </header>
+        <p class="thesis" id="thesis"></p>
+        <div class="variants" id="variants"></div>
+        <div class="workspace">
+          <div class="stage" id="stage"></div>
+          <aside class="note" aria-live="polite">
+            <p class="note-kicker" id="note-kicker">这一步</p>
+            <h3 id="note-title"></h3>
+            <p id="note-body"></p>
+          </aside>
+          <div class="transport">
+            <div class="steps">
+              <button id="prev" type="button">上一步</button>
+              <button id="play" type="button" aria-pressed="false">播放</button>
+              <button id="next" type="button" class="primary">下一步</button>
+            </div>
+            <div class="speeds" role="group" aria-label="速度">
+              <button type="button" data-speed="980">慢</button>
+              <button type="button" data-speed="560" class="is-on">中</button>
+              <button type="button" data-speed="240">快</button>
+            </div>
+            <p class="counter" id="counter"></p>
+          </div>
+          <p class="keys">← → 换步，空格播放</p>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
