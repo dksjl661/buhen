@@ -46,6 +46,7 @@ import l45 from "./book/next-greater.js";
 import l46 from "./book/daily-temp.js";
 import l47 from "./book/islands.js";
 import l48 from "./book/topo-sort.js";
+import l49 from "./book/union-find.js";
 
 export const book = [
   l1,
@@ -96,4 +97,5 @@ export const book = [
   l46,
   l47,
   l48,
+  l49,
 ];
