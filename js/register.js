@@ -44,6 +44,7 @@ import l43 from "./book/unique-paths.js";
 import l44 from "./book/lis.js";
 import l45 from "./book/next-greater.js";
 import l46 from "./book/daily-temp.js";
+import l47 from "./book/islands.js";
 
 export const book = [
   l1,
@@ -92,4 +93,5 @@ export const book = [
   l44,
   l45,
   l46,
+  l47,
 ];
