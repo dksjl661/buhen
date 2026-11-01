@@ -38,6 +38,7 @@ import l37 from "./book/jump-game.js";
 import l38 from "./book/erase-overlap.js";
 import l39 from "./book/climb-stairs.js";
 import l40 from "./book/house-robber.js";
+import l41 from "./book/coin-change.js";
 
 export const book = [
   l1,
@@ -80,4 +81,5 @@ export const book = [
   l38,
   l39,
   l40,
+  l41,
 ];
