@@ -12,6 +12,7 @@ import l11 from "./book/remove-nth.js";
 import l12 from "./book/remove-linked-val.js";
 import l13 from "./book/two-sum.js";
 import l14 from "./book/anagram.js";
+import l15 from "./book/intersection.js";
 
 export const book = [
   l1,
@@ -28,4 +29,5 @@ export const book = [
   l12,
   l13,
   l14,
+  l15,
 ];
