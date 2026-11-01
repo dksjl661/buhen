@@ -28,6 +28,7 @@ import l27 from "./book/preorder.js";
 import l28 from "./book/level-order.js";
 import l29 from "./book/invert-tree.js";
 import l30 from "./book/max-depth.js";
+import l31 from "./book/path-sum.js";
 
 export const book = [
   l1,
@@ -60,4 +61,5 @@ export const book = [
   l28,
   l29,
   l30,
+  l31,
 ];
