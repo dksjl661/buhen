@@ -29,6 +29,7 @@ import l28 from "./book/level-order.js";
 import l29 from "./book/invert-tree.js";
 import l30 from "./book/max-depth.js";
 import l31 from "./book/path-sum.js";
+import l32 from "./book/subsets.js";
 
 export const book = [
   l1,
@@ -62,4 +63,5 @@ export const book = [
   l29,
   l30,
   l31,
+  l32,
 ];
